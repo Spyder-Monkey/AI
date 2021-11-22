@@ -1,0 +1,13 @@
+# CSCI 450.02
+# Konane Evaluation
+# Due 10/10/21
+# Curtis Kane, Trevor Bender
+
+Our evaluation function returns the amount of moves that get generated
+    following each move at the max depth. A max player should favor taking
+    moves that have a high number of following moves, while a min player
+    should favor moves that have a low number of following moves.
+We considered other possible heuristics for our evaluation function, but
+    ultimately decided to choose a simple one for our player.
+This heuristic won in all of our tests against simple players, and in many
+    of the tests against random players.
